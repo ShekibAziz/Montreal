@@ -1,0 +1,97 @@
+*{
+  margin: 0; padding: 0;
+  }
+
+  html, body{
+    background-color: #92cccc;
+    height:100%;
+    min-width: 850px;
+    font-size: 100%;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+
+#navbar  {
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  background-color: #333;
+}
+
+div#navbar ul li{
+  display: inline-block ;
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+}
+
+div#navbar ul li a{
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  color: #fff;
+}
+
+div#navbar ul li a:hover{
+  color: #888 ;
+}
+#greeding{
+  font-size: 300%;
+  text-align: center;
+  z-index: -5;
+  background-color: #92cccc;
+  padding-top: 20px;
+  box-shadow: 1px 1px 1px #111;
+}
+#welcomeToCanadaImageBox{
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#welcomeToCanadaImageBox p{
+  margin: 10px 20px 10px 20px;
+}
+#welcomeToCanada{
+  display: block;
+  margin: auto;
+  margin-top: -700px;
+  z-index: 1;
+}
+.currentlyActive{
+  height: auto;
+  background-color: black;
+}
+#montrealPanorama{
+  border: 2px solid grey;
+  float:left;
+  margin: 10px 10px 10px 20px;
+}
+h3{
+  font-size: 200%;
+  padding: 10px 5px 5px 30px;
+}
+
+#montrealOld{
+  border: 2px solid grey;
+  float:right;
+  margin: 10px 10px 10px 20px;
+}
+.cityOfMontreal{
+  display: block;
+  text-align: right;
+  margin-right: 40px;
+}
+
+span{
+  font-size: 350%;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 200px;
+}
+div#welcomeToCanadaImageBox ul li p {
+  font-size: 140%;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+img{
+margin-top: 10px;
+margin-left: 250px;
+height: 450px;
+border: 2px solid grey;
+}
